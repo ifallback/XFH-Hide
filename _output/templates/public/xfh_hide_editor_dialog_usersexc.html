@@ -1,0 +1,18 @@
+<xf:title>{{ phrase('xfh_hide_hidden_content_from_usersexc') }}</xf:title>
+
+<form class="block" id="xfh_hide_editor_usersexc_form">
+	<div class="block-container">
+		<div class="block-body">
+			<xf:textboxrow id="xfh_hide_editor_usersexc" 
+						   type="search" 
+						   ac="true"
+						   placeholder="{{ phrase('user_name...') }}"
+						   label="{{ phrase('user_name') }}" />
+			
+			<xf:editorrow id="xfh_hide_editor_usersexc_text"
+				label="{{ phrase('xfh_hide_enter_hidden_content') }}" />
+		</div>
+		
+		<xf:submitrow submit="{{ phrase('continue') }}" />
+	</div>
+</form>

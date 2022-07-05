@@ -1,0 +1,16 @@
+{
+    "legacy_addon_id": "",
+    "title": "[XFH] Hide BbCode System",
+    "description": "This addon adds a system of hides to your forum",
+    "version_id": 1000070,
+    "version_string": "1.0.0",
+    "dev": "XenForo.help",
+    "dev_url": "https://xenforo.help/",
+    "faq_url": "",
+    "support_url": "",
+    "extra_urls": {
+        "FALLBACK": "https://xenforo.help/members/fallback.4/"
+    },
+    "require": [],
+    "icon": "icon.png"
+}

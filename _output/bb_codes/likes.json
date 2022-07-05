@@ -1,0 +1,20 @@
+{
+    "bb_code_mode": "callback",
+    "has_option": "yes",
+    "replace_html": "",
+    "replace_html_email": "",
+    "replace_text": "",
+    "callback_class": "XFH\\Hide\\BbCode\\Tags\\HideLikes",
+    "callback_method": "render",
+    "option_regex": "",
+    "trim_lines_after": 0,
+    "plain_children": false,
+    "disable_smilies": false,
+    "disable_nl2br": true,
+    "disable_autolink": false,
+    "allow_empty": false,
+    "allow_signature": true,
+    "editor_icon_type": "fa",
+    "editor_icon_value": "fas fa-heart fa-fw",
+    "active": true
+}

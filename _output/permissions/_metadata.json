@@ -1,0 +1,29 @@
+{
+    "xfh_hide_permissions-bypass_all_tags.json": {
+        "hash": "b0e6ecfa58da3fba7f2a0af88f780c04"
+    },
+    "xfh_hide_permissions-can_use_bb_codes.json": {
+        "hash": "c8912453c657f2ef3a6440bb204b1ab7"
+    },
+    "xfh_hide_permissions-can_use_days.json": {
+        "hash": "fc0e7505dd7cb686e24bb1b7ab0c675e"
+    },
+    "xfh_hide_permissions-can_use_hide.json": {
+        "hash": "1e781f07099895e1470f383b46564822"
+    },
+    "xfh_hide_permissions-can_use_likes.json": {
+        "hash": "dcbc60c93c7d32fa9d65155354b70d16"
+    },
+    "xfh_hide_permissions-can_use_posts.json": {
+        "hash": "537d3ebcb9eb88004ad0777834c23830"
+    },
+    "xfh_hide_permissions-can_use_staff.json": {
+        "hash": "494e2dc9231211d4dc15cf6d6c0314c4"
+    },
+    "xfh_hide_permissions-can_use_users.json": {
+        "hash": "e61fb01558e24389bb6bed36269aeee4"
+    },
+    "xfh_hide_permissions-can_use_usersexc.json": {
+        "hash": "c89b65594cc95a0e26422c7e30ee8a84"
+    }
+}

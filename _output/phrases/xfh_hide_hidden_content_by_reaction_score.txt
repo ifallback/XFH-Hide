@@ -1,0 +1,1 @@
+Hidden text, you need have <strong>{need}</strong> reactions, now you have <strong>{now}</strong> reactions.

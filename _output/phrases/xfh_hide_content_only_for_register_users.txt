@@ -1,0 +1,1 @@
+Hide content only for registred users

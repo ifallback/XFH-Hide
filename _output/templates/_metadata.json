@@ -1,0 +1,57 @@
+{
+    "public/xfh_hide_auth_or_register.html": {
+        "version_id": 1000070,
+        "version_string": "1.0.0",
+        "hash": "6d385db8e789361982fc2266a9f18a20"
+    },
+    "public/xfh_hide_bb_code.html": {
+        "version_id": 1000070,
+        "version_string": "1.0.0",
+        "hash": "47676eed3c9b10b819b14bd801ee05ad"
+    },
+    "public/xfh_hide_bb_code.less": {
+        "version_id": 1000070,
+        "version_string": "1.0.0",
+        "hash": "0f7f850ac7faeb9b514aa3328b24b1d3"
+    },
+    "public/xfh_hide_bb_code_error.html": {
+        "version_id": 1000070,
+        "version_string": "1.0.0",
+        "hash": "4a6e79c4be107df3b2e024dca37c144d"
+    },
+    "public/xfh_hide_editor_dialog_days.html": {
+        "version_id": 1000070,
+        "version_string": "1.0.0",
+        "hash": "553a6bcfe3ef459788235bf01d04a659"
+    },
+    "public/xfh_hide_editor_dialog_hide.html": {
+        "version_id": 1000070,
+        "version_string": "1.0.0",
+        "hash": "5a1932aab7b6b7873502765ad6f9b9ed"
+    },
+    "public/xfh_hide_editor_dialog_likes.html": {
+        "version_id": 1000070,
+        "version_string": "1.0.0",
+        "hash": "2335cb53cf91b5a83b4b0e4b50c3544a"
+    },
+    "public/xfh_hide_editor_dialog_posts.html": {
+        "version_id": 1000070,
+        "version_string": "1.0.0",
+        "hash": "7a8171178e1da28da7e959189e5da042"
+    },
+    "public/xfh_hide_editor_dialog_staff.html": {
+        "version_id": 1000070,
+        "version_string": "1.0.0",
+        "hash": "8ba02441c9a62e4ab205ec6eba7a1ebc"
+    },
+    "public/xfh_hide_editor_dialog_users.html": {
+        "version_id": 1000070,
+        "version_string": "1.0.0",
+        "hash": "6288784092f633431efc340bf3bc0f45"
+    },
+    "public/xfh_hide_editor_dialog_usersexc.html": {
+        "version_id": 1000070,
+        "version_string": "1.0.0",
+        "hash": "c449fae8079b5edb68a1fb707fc66eea"
+    }
+}

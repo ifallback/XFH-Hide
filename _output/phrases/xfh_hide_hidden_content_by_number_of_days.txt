@@ -1,0 +1,1 @@
+Hidden text, you need to spend <strong>{need}</strong> days from the moment of registration, now you have spent <strong>{now}</strong> days.

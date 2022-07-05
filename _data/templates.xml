@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<templates>
+  <template type="public" title="xfh_hide_auth_or_register" version_id="1000070" version_string="1.0.0"><![CDATA[<xf:include template="xfh_hide_bb_code_error" />]]></template>
+  <template type="public" title="xfh_hide_bb_code" version_id="1000070" version_string="1.0.0"><![CDATA[<xf:css src="bb_code.less" />
+
+<div class="bbCodeBlock bbCodeBlock--expandable bbCodeBlock--quote">
+	<div class="bbCodeBlock-title">
+		{$title|raw}
+	</div>
+	<div class="bbCodeBlock-content">
+		{$content|raw}
+	</div>
+</div>]]></template>
+  <template type="public" title="xfh_hide_bb_code.less" version_id="1000070" version_string="1.0.0"><![CDATA[.bbCodeBlock
+{
+	&.bbCodeBlock--hideError
+	{
+		background: @xf-errorBg;
+		border-color: @xf-errorBg;
+		border-left-color: @xf-errorFeatureColor;
+	}
+}]]></template>
+  <template type="public" title="xfh_hide_bb_code_error" version_id="1000070" version_string="1.0.0"><![CDATA[<xf:css src="bb_code.less" />
+<xf:css src="xfh_hide_bb_code.less" />
+
+<div class="bbCodeBlock bbCodeBlock--hideError bbCodeBlock--quote">
+	<div class="bbCodeBlock-content">
+		<div class="bbCodeBlock-expandContent">
+			{$error|raw}
+		</div>
+	</div>
+</div>]]></template>
+  <template type="public" title="xfh_hide_editor_dialog_days" version_id="1000070" version_string="1.0.0"><![CDATA[<xf:title>{{ phrase('xfh_hide_hidden_content_by_number_of_days') }}</xf:title>
+
+<form class="block" id="xfh_hide_editor_days_form">
+	<div class="block-container">
+		<div class="block-body">
+			<xf:numberboxrow id="xfh_hide_editor_days_count"
+							 value="0"
+							 min="1"
+							 label="{{ phrase('xfh_hide_enter_days_count') }}"
+							 required="true"/>
+			
+			<xf:editorrow id="xfh_hide_editor_days_text"
+				label="{{ phrase('xfh_hide_enter_hidden_content') }}" />
+		</div>
+		
+		<xf:submitrow submit="{{ phrase('continue') }}" />
+	</div>
+</form>]]></template>
+  <template type="public" title="xfh_hide_editor_dialog_hide" version_id="1000070" version_string="1.0.0"><![CDATA[<xf:title>{{ phrase('xfh_hide_content_only_for_register_users') }}</xf:title>
+
+<form class="block" id="xfh_hide_editor_hide_form">
+	<div class="block-container">
+		<div class="block-body">
+			<xf:editorrow id="xfh_hide_editor_hide_text"
+				label="{{ phrase('xfh_hide_enter_hidden_content') }}" />
+		</div>
+		
+		<xf:submitrow submit="{{ phrase('continue') }}" />
+	</div>
+</form>]]></template>
+  <template type="public" title="xfh_hide_editor_dialog_likes" version_id="1000070" version_string="1.0.0"><![CDATA[<xf:title>{{ phrase('xfh_hide_hidden_content_by_number_of_reactions') }}</xf:title>
+
+<form class="block" id="xfh_hide_editor_likes_form">
+	<div class="block-container">
+		<div class="block-body">
+			<xf:numberboxrow id="xfh_hide_editor_likes_count"
+							 value="0"
+							 min="1"
+							 label="{{ phrase('xfh_hide_enter_reactions_count') }}"
+							 required="true"/>
+			
+			<xf:editorrow id="xfh_hide_editor_likes_text"
+				label="{{ phrase('xfh_hide_enter_hidden_content') }}" />
+		</div>
+		
+		<xf:submitrow submit="{{ phrase('continue') }}" />
+	</div>
+</form>]]></template>
+  <template type="public" title="xfh_hide_editor_dialog_posts" version_id="1000070" version_string="1.0.0"><![CDATA[<xf:title>{{ phrase('xfh_hide_hidden_content_by_number_of_posts') }}</xf:title>
+
+<form class="block" id="xfh_hide_editor_posts_form">
+	<div class="block-container">
+		<div class="block-body">
+			<xf:numberboxrow id="xfh_hide_editor_posts_count"
+							 value="0"
+							 min="1"
+							 label="{{ phrase('xfh_hide_enter_posts_count') }}"
+							 required="true"/>
+			
+			<xf:editorrow id="xfh_hide_editor_posts_text"
+				label="{{ phrase('xfh_hide_enter_hidden_content') }}" />
+		</div>
+		
+		<xf:submitrow submit="{{ phrase('continue') }}" />
+	</div>
+</form>]]></template>
+  <template type="public" title="xfh_hide_editor_dialog_staff" version_id="1000070" version_string="1.0.0"><![CDATA[<xf:title>{{ phrase('xfh_hide_content_for_forum_staff') }}</xf:title>
+
+<form class="block" id="xfh_hide_editor_staff_form">
+	<div class="block-container">
+		<div class="block-body">
+			<xf:editorrow id="xfh_hide_editor_staff_text"
+				label="{{ phrase('xfh_hide_enter_hidden_content') }}" />
+		</div>
+		
+		<xf:submitrow submit="{{ phrase('continue') }}" />
+	</div>
+</form>]]></template>
+  <template type="public" title="xfh_hide_editor_dialog_users" version_id="1000070" version_string="1.0.0"><![CDATA[<xf:title>{{ phrase('xfh_hide_hidden_content_for_users') }}</xf:title>
+
+<form class="block" id="xfh_hide_editor_users_form">
+	<div class="block-container">
+		<div class="block-body">
+			<xf:textboxrow id="xfh_hide_editor_users" 
+						   type="search" 
+						   ac="true"
+						   placeholder="{{ phrase('user_name...') }}"
+						   label="{{ phrase('user_name') }}" />
+			
+			<xf:editorrow id="xfh_hide_editor_users_text"
+				label="{{ phrase('xfh_hide_enter_hidden_content') }}" />
+		</div>
+		
+		<xf:submitrow submit="{{ phrase('continue') }}" />
+	</div>
+</form>]]></template>
+  <template type="public" title="xfh_hide_editor_dialog_usersexc" version_id="1000070" version_string="1.0.0"><![CDATA[<xf:title>{{ phrase('xfh_hide_hidden_content_from_usersexc') }}</xf:title>
+
+<form class="block" id="xfh_hide_editor_usersexc_form">
+	<div class="block-container">
+		<div class="block-body">
+			<xf:textboxrow id="xfh_hide_editor_usersexc" 
+						   type="search" 
+						   ac="true"
+						   placeholder="{{ phrase('user_name...') }}"
+						   label="{{ phrase('user_name') }}" />
+			
+			<xf:editorrow id="xfh_hide_editor_usersexc_text"
+				label="{{ phrase('xfh_hide_enter_hidden_content') }}" />
+		</div>
+		
+		<xf:submitrow submit="{{ phrase('continue') }}" />
+	</div>
+</form>]]></template>
+</templates>

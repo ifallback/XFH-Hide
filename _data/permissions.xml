@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<permissions>
+  <permission permission_group_id="xfh_hide_permissions" permission_id="bypass_all_tags" permission_type="flag" interface_group_id="xfh_hide_permissions" display_order="100"/>
+  <permission permission_group_id="xfh_hide_permissions" permission_id="can_use_bb_codes" permission_type="flag" interface_group_id="xfh_hide_permissions" display_order="1"/>
+  <permission permission_group_id="xfh_hide_permissions" permission_id="can_use_days" permission_type="flag" interface_group_id="xfh_hide_permissions" display_order="6"/>
+  <permission permission_group_id="xfh_hide_permissions" permission_id="can_use_hide" permission_type="flag" interface_group_id="xfh_hide_permissions" display_order="2"/>
+  <permission permission_group_id="xfh_hide_permissions" permission_id="can_use_likes" permission_type="flag" interface_group_id="xfh_hide_permissions" display_order="3"/>
+  <permission permission_group_id="xfh_hide_permissions" permission_id="can_use_posts" permission_type="flag" interface_group_id="xfh_hide_permissions" display_order="5"/>
+  <permission permission_group_id="xfh_hide_permissions" permission_id="can_use_staff" permission_type="flag" interface_group_id="xfh_hide_permissions" display_order="4"/>
+  <permission permission_group_id="xfh_hide_permissions" permission_id="can_use_users" permission_type="flag" interface_group_id="xfh_hide_permissions" display_order="7"/>
+  <permission permission_group_id="xfh_hide_permissions" permission_id="can_use_usersexc" permission_type="flag" interface_group_id="xfh_hide_permissions" display_order="8"/>
+</permissions>
