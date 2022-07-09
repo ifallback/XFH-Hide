@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <phrases>
   <phrase title="custom_bb_code_desc.days" version_id="1000070" version_string="1.0.0"><![CDATA[]]></phrase>
-  <phrase title="custom_bb_code_desc.hide" version_id="1000070" version_string="1.0.0"><![CDATA[]]></phrase>
+  <phrase title="custom_bb_code_desc.hasreply" version_id="1000070" version_string="1.0.0"><![CDATA[]]></phrase>
   <phrase title="custom_bb_code_desc.likes" version_id="1000070" version_string="1.0.0"><![CDATA[]]></phrase>
   <phrase title="custom_bb_code_desc.posts" version_id="1000070" version_string="1.0.0"><![CDATA[]]></phrase>
   <phrase title="custom_bb_code_desc.staff" version_id="1000070" version_string="1.0.0"><![CDATA[]]></phrase>
   <phrase title="custom_bb_code_desc.users" version_id="1000070" version_string="1.0.0"><![CDATA[]]></phrase>
   <phrase title="custom_bb_code_desc.usersexc" version_id="1000070" version_string="1.0.0"><![CDATA[]]></phrase>
   <phrase title="custom_bb_code_example.days" version_id="1000070" version_string="1.0.0"><![CDATA[]]></phrase>
-  <phrase title="custom_bb_code_example.hide" version_id="1000070" version_string="1.0.0"><![CDATA[]]></phrase>
+  <phrase title="custom_bb_code_example.hasreply" version_id="1000070" version_string="1.0.0"><![CDATA[]]></phrase>
   <phrase title="custom_bb_code_example.likes" version_id="1000070" version_string="1.0.0"><![CDATA[]]></phrase>
   <phrase title="custom_bb_code_example.posts" version_id="1000070" version_string="1.0.0"><![CDATA[]]></phrase>
   <phrase title="custom_bb_code_example.staff" version_id="1000070" version_string="1.0.0"><![CDATA[]]></phrase>
   <phrase title="custom_bb_code_example.users" version_id="1000070" version_string="1.0.0"><![CDATA[]]></phrase>
   <phrase title="custom_bb_code_example.usersexc" version_id="1000070" version_string="1.0.0"><![CDATA[]]></phrase>
   <phrase title="custom_bb_code_output.days" version_id="1000070" version_string="1.0.0"><![CDATA[]]></phrase>
-  <phrase title="custom_bb_code_output.hide" version_id="1000070" version_string="1.0.0"><![CDATA[]]></phrase>
+  <phrase title="custom_bb_code_output.hasreply" version_id="1000070" version_string="1.0.0"><![CDATA[]]></phrase>
   <phrase title="custom_bb_code_output.likes" version_id="1000070" version_string="1.0.0"><![CDATA[]]></phrase>
   <phrase title="custom_bb_code_output.posts" version_id="1000070" version_string="1.0.0"><![CDATA[]]></phrase>
   <phrase title="custom_bb_code_output.staff" version_id="1000070" version_string="1.0.0"><![CDATA[]]></phrase>
   <phrase title="custom_bb_code_output.users" version_id="1000070" version_string="1.0.0"><![CDATA[]]></phrase>
   <phrase title="custom_bb_code_output.usersexc" version_id="1000070" version_string="1.0.0"><![CDATA[]]></phrase>
   <phrase title="custom_bb_code_title.days" version_id="1000070" version_string="1.0.0"><![CDATA[Hide by number of days]]></phrase>
-  <phrase title="custom_bb_code_title.hide" version_id="1000070" version_string="1.0.0"><![CDATA[Hide from guests]]></phrase>
+  <phrase title="custom_bb_code_title.hasreply" version_id="1000070" version_string="1.0.0"><![CDATA[Hide until user answer in thread]]></phrase>
   <phrase title="custom_bb_code_title.likes" version_id="1000070" version_string="1.0.0"><![CDATA[Hide by number of reactions]]></phrase>
   <phrase title="custom_bb_code_title.posts" version_id="1000070" version_string="1.0.0"><![CDATA[Hide by number of posts]]></phrase>
   <phrase title="custom_bb_code_title.staff" version_id="1000070" version_string="1.0.0"><![CDATA[Hide for forum staff]]></phrase>
@@ -32,6 +32,7 @@
   <phrase title="permission.xfh_hide_permissions_bypass_all_tags" version_id="1000070" version_string="1.0.0"><![CDATA[See all tag content (Bypass options)]]></phrase>
   <phrase title="permission.xfh_hide_permissions_can_use_bb_codes" version_id="1000070" version_string="1.0.0"><![CDATA[Can use bb codes]]></phrase>
   <phrase title="permission.xfh_hide_permissions_can_use_days" version_id="1000070" version_string="1.0.0"><![CDATA[Can use [DAYS] tag]]></phrase>
+  <phrase title="permission.xfh_hide_permissions_can_use_hasreply" version_id="1000070" version_string="1.0.0"><![CDATA[Can use [HASREPLY] tag]]></phrase>
   <phrase title="permission.xfh_hide_permissions_can_use_hide" version_id="1000070" version_string="1.0.0"><![CDATA[Can use [HIDE] tag]]></phrase>
   <phrase title="permission.xfh_hide_permissions_can_use_likes" version_id="1000070" version_string="1.0.0"><![CDATA[Can use [LIKES] tag]]></phrase>
   <phrase title="permission.xfh_hide_permissions_can_use_posts" version_id="1000070" version_string="1.0.0"><![CDATA[Can use [POSTS] tag]]></phrase>
@@ -41,6 +42,7 @@
   <phrase title="permission_interface.xfh_hide_permissions" version_id="1000070" version_string="1.0.0"><![CDATA[[XFH] Hide BbCode System]]></phrase>
   <phrase title="xfh_hide_content_for_forum_staff" version_id="1000070" version_string="1.0.0"><![CDATA[Hide content for forum staff members]]></phrase>
   <phrase title="xfh_hide_content_only_for_register_users" version_id="1000070" version_string="1.0.0"><![CDATA[Hide content only for registred users]]></phrase>
+  <phrase title="xfh_hide_content_until_answer" version_id="1000070" version_string="1.0.0"><![CDATA[Hide content until user answer in thread]]></phrase>
   <phrase title="xfh_hide_enter_days_count" version_id="1000070" version_string="1.0.0"><![CDATA[Enter days count]]></phrase>
   <phrase title="xfh_hide_enter_hidden_content" version_id="1000070" version_string="1.0.0"><![CDATA[Enter hidden content]]></phrase>
   <phrase title="xfh_hide_enter_posts_count" version_id="1000070" version_string="1.0.0"><![CDATA[Enter posts count]]></phrase>
@@ -56,5 +58,7 @@
   <phrase title="xfh_hide_hidden_content_for_users_x" version_id="1000070" version_string="1.0.0"><![CDATA[Hidden text for users: {users}]]></phrase>
   <phrase title="xfh_hide_hidden_content_from_users_x" version_id="1000070" version_string="1.0.0"><![CDATA[Hidden content from users: {users}]]></phrase>
   <phrase title="xfh_hide_hidden_content_from_usersexc" version_id="1000070" version_string="1.0.0"><![CDATA[Hidden text from users]]></phrase>
+  <phrase title="xfh_hide_hidden_content_has_reply" version_id="1000070" version_string="1.0.0"><![CDATA[To view hidden content, answer in the thread.]]></phrase>
+  <phrase title="xfh_hide_stripped_text" version_id="1000070" version_string="1.0.0"><![CDATA[Hidden content. To view this content, visit the thread.]]></phrase>
   <phrase title="xfh_hide_to_view_content_need_register_or_signup" version_id="1000070" version_string="1.0.0"><![CDATA[To view this content, you need to <a href="{register}">register</a> or <a href="{login}">log in</a> to your account]]></phrase>
 </phrases>

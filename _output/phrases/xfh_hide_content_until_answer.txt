@@ -1,0 +1,1 @@
+Hide content until user answer in thread
