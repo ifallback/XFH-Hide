@@ -69,4 +69,15 @@ abstract class AbstractTag
             ->fetch()
             ->pluckNamed('bb_code_id');
     }
+
+    /**
+     * @param $string
+     * @param string $replacetext
+     * @return array|string|string[]|null
+     */
+    public static function stripHideTags($string, string $replacetext = ''): string
+    {
+        return preg_replace('#\[(' . implode ('|', self::getHideTags()) . ')(=[^\]]*)?\](.*)\[/\1\]#siU', $replacetext, $string);
+    }
+
 }

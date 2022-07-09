@@ -24,6 +24,11 @@
         "version_string": "1.0.0",
         "hash": "553a6bcfe3ef459788235bf01d04a659"
     },
+    "public/xfh_hide_editor_dialog_hasreply.html": {
+        "version_id": 1000070,
+        "version_string": "1.0.0",
+        "hash": "577ad4237cba1a9a211f26d9645c05fd"
+    },
     "public/xfh_hide_editor_dialog_hide.html": {
         "version_id": 1000070,
         "version_string": "1.0.0",

@@ -5,6 +5,12 @@
         "version_string": "1.0.0",
         "hash": "d41d8cd98f00b204e9800998ecf8427e"
     },
+    "custom_bb_code_desc.hasreply.txt": {
+        "global_cache": false,
+        "version_id": 1000070,
+        "version_string": "1.0.0",
+        "hash": "d41d8cd98f00b204e9800998ecf8427e"
+    },
     "custom_bb_code_desc.posts.txt": {
         "global_cache": false,
         "version_id": 1000070,
@@ -24,6 +30,12 @@
         "hash": "d41d8cd98f00b204e9800998ecf8427e"
     },
     "custom_bb_code_example.days.txt": {
+        "global_cache": false,
+        "version_id": 1000070,
+        "version_string": "1.0.0",
+        "hash": "d41d8cd98f00b204e9800998ecf8427e"
+    },
+    "custom_bb_code_example.hasreply.txt": {
         "global_cache": false,
         "version_id": 1000070,
         "version_string": "1.0.0",
@@ -53,6 +65,12 @@
         "version_string": "1.0.0",
         "hash": "d41d8cd98f00b204e9800998ecf8427e"
     },
+    "custom_bb_code_output.hasreply.txt": {
+        "global_cache": false,
+        "version_id": 1000070,
+        "version_string": "1.0.0",
+        "hash": "d41d8cd98f00b204e9800998ecf8427e"
+    },
     "custom_bb_code_output.posts.txt": {
         "global_cache": false,
         "version_id": 1000070,
@@ -76,6 +94,12 @@
         "version_id": 1000070,
         "version_string": "1.0.0",
         "hash": "79f677209dda9132973e0e3eba7092ea"
+    },
+    "custom_bb_code_title.hasreply.txt": {
+        "global_cache": false,
+        "version_id": 1000070,
+        "version_string": "1.0.0",
+        "hash": "9ce7ff7cd52c34054a3cd9384778df99"
     },
     "custom_bb_code_title.posts.txt": {
         "global_cache": false,
@@ -124,6 +148,12 @@
         "version_id": 1000070,
         "version_string": "1.0.0",
         "hash": "fb71619ca2f6dbec8ec74b03a7ee67db"
+    },
+    "permission.xfh_hide_permissions_can_use_hasreply.txt": {
+        "global_cache": false,
+        "version_id": 1000070,
+        "version_string": "1.0.0",
+        "hash": "f2117b5fba434280582af1ba552314e5"
     },
     "permission.xfh_hide_permissions_can_use_hide.txt": {
         "global_cache": false,
@@ -178,6 +208,12 @@
         "version_id": 1000070,
         "version_string": "1.0.0",
         "hash": "1b0cf5ff2731337cd718f5ebc951f1fe"
+    },
+    "xfh_hide_content_until_answer.txt": {
+        "global_cache": false,
+        "version_id": 1000070,
+        "version_string": "1.0.0",
+        "hash": "3c029186e63c9c2f3e214776f382aea6"
     },
     "xfh_hide_enter_days_count.txt": {
         "global_cache": false,
@@ -262,6 +298,18 @@
         "version_id": 1000070,
         "version_string": "1.0.0",
         "hash": "0e3a297c17fb5ce76fae4cd07c3547f0"
+    },
+    "xfh_hide_hidden_content_has_reply.txt": {
+        "global_cache": false,
+        "version_id": 1000070,
+        "version_string": "1.0.0",
+        "hash": "d1d5175037d36084b44ccbebbb9a21aa"
+    },
+    "xfh_hide_stripped_text.txt": {
+        "global_cache": false,
+        "version_id": 1000070,
+        "version_string": "1.0.0",
+        "hash": "7a829441478370595ecfe14044a58cdf"
     },
     "xfh_hide_to_view_content_need_register_or_signup.txt": {
         "global_cache": false,

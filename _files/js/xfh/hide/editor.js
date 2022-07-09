@@ -278,6 +278,36 @@ XFH.HideEditorHelpers = window.XFH.HideEditorHelpers || {};
                 overlay.hide();
             }
         }),
+
+        EditorHasReplyDialog: XF.extend(XF.EditorDialog, {
+            _init: function()
+            {
+                $('#xfh_hide_editor_hasreply_form').submit(XF.proxy(this, 'submit'));
+            },
+
+            submit: function(e)
+            {
+                e.preventDefault();
+
+                const ed = this.ed,
+                    overlay = this.overlay,
+                    tag = this.dialog.match(/^xfhHide([a-zA-Z0-9_]+)$/)[1]?.toUpperCase(),
+                    $text = $('#xfh_hide_editor_hasreply_text')
+
+                if (!tag)
+                {
+                    return;
+                }
+
+                ed.undo.saveStep();
+                XFH.HideEditorHelpers.insertTag(ed, tag, null, $.trim($text.val()));
+                ed.undo.saveStep();
+
+                $text.val('');
+
+                overlay.hide();
+            }
+        }),
     }
 
     XFH.HideEditorHelpers = $.extend(XF.EditorHelpers, {
@@ -299,6 +329,7 @@ XFH.HideEditorHelpers = window.XFH.HideEditorHelpers || {};
             XF.EditorHelpers.dialogs.xfhHideDays = new XFH.HideBbCodeDialog.EditorDaysDialog('xfhHideDays');
             XF.EditorHelpers.dialogs.xfhHideUsers = new XFH.HideBbCodeDialog.EditorUsersDialog('xfhHideUsers');
             XF.EditorHelpers.dialogs.xfhHideUsersexc = new XFH.HideBbCodeDialog.EditorUsersExcDialog('xfhHideUsersexc');
+            XF.EditorHelpers.dialogs.xfhHideHasreply = new XFH.HideBbCodeDialog.EditorHasReplyDialog('xfhHideHasreply');
         }
     });
 
